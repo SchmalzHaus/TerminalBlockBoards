@@ -150,14 +150,20 @@
 <hole x="2.54" y="15.24" drill="3.175"/>
 <hole x="30.48" y="15.24" drill="3.175"/>
 <hole x="30.48" y="2.54" drill="3.175"/>
-<wire x1="0" y1="0" x2="0" y2="17.78" width="0" layer="20"/>
-<wire x1="0" y1="17.78" x2="33.02" y2="17.78" width="0" layer="20"/>
-<wire x1="33.02" y1="17.78" x2="33.02" y2="0" width="0" layer="20"/>
-<wire x1="33.02" y1="0" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="88.9" width="0" layer="20"/>
+<wire x1="0" y1="88.9" x2="99.06" y2="88.9" width="0" layer="20"/>
+<wire x1="99.06" y1="88.9" x2="99.06" y2="0" width="0" layer="20"/>
+<wire x1="99.06" y1="0" x2="0" y2="0" width="0" layer="20"/>
 <rectangle x1="0.0635" y1="8.9535" x2="10.8585" y2="12.3825" layer="21"/>
 <rectangle x1="0.0635" y1="5.2705" x2="10.8585" y2="8.6995" layer="21"/>
 <rectangle x1="5.207" y1="0" x2="25.146" y2="3.81" layer="21"/>
 <rectangle x1="5.2705" y1="13.843" x2="25.2095" y2="17.653" layer="21"/>
+<wire x1="33.02" y1="-7.62" x2="33.02" y2="96.52" width="0" layer="20"/>
+<wire x1="66.04" y1="-6.35" x2="66.04" y2="96.52" width="0" layer="20"/>
+<wire x1="-7.62" y1="17.78" x2="106.68" y2="17.78" width="0" layer="20"/>
+<wire x1="-7.62" y1="35.56" x2="106.68" y2="35.56" width="0" layer="20"/>
+<wire x1="-6.35" y1="53.34" x2="107.95" y2="53.34" width="0" layer="20"/>
+<wire x1="-7.62" y1="71.12" x2="106.68" y2="71.12" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
