@@ -264,7 +264,7 @@
 <text x="-24.003" y="55.88" size="1.778" layer="21">VSCORE</text>
 <text x="28.321" y="-11.811" size="1.778" layer="21">VSCORE</text>
 <text x="60.706" y="-11.43" size="1.778" layer="21">VSCORE</text>
-<text x="49.53" y="35.56" size="1.778" layer="22" rot="MR270">JLCPCB-JLCPCB-JLCPCB</text>
+<text x="39.624" y="2.794" size="1.778" layer="22" rot="MR180">JLCJLCJLCJLC</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">

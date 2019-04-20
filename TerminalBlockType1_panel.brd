@@ -263,7 +263,7 @@
 <rectangle x1="66.1035" y1="72.8345" x2="76.8985" y2="76.2635" layer="21"/>
 <rectangle x1="72.517" y1="60.96" x2="92.456" y2="64.77" layer="21"/>
 <rectangle x1="72.5805" y1="77.343" x2="92.5195" y2="81.153" layer="21"/>
-<text x="44.704" y="4.699" size="1.778" layer="22" rot="MR90">JLCPCB-JLCPCB-JLCPCB</text>
+<text x="40.894" y="3.302" size="1.778" layer="22" rot="MR180">JLCJLCJLCJLC</text>
 <text x="-22.225" y="61.341" size="1.778" layer="21">VSCORE</text>
 <text x="-22.352" y="41.148" size="1.778" layer="21">VSCORE</text>
 <text x="-22.352" y="20.828" size="1.778" layer="21">VSCORE</text>
