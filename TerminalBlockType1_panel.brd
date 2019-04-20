@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -24,25 +24,25 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -146,10 +146,10 @@
 </layers>
 <board>
 <plain>
-<hole x="2.54" y="2.54" drill="3.175"/>
-<hole x="2.54" y="17.78" drill="3.175"/>
-<hole x="30.48" y="17.78" drill="3.175"/>
-<hole x="30.48" y="2.54" drill="3.175"/>
+<hole x="2.54" y="2.54" drill="2.54"/>
+<hole x="2.54" y="17.78" drill="2.54"/>
+<hole x="30.48" y="17.78" drill="2.54"/>
+<hole x="30.48" y="2.54" drill="2.54"/>
 <wire x1="0" y1="0" x2="0" y2="81.28" width="0" layer="20"/>
 <wire x1="0" y1="81.28" x2="99.06" y2="81.28" width="0" layer="20"/>
 <wire x1="99.06" y1="81.28" x2="99.06" y2="0" width="0" layer="20"/>
@@ -164,100 +164,100 @@
 <wire x1="-11.43" y1="20.32" x2="109.22" y2="20.32" width="0" layer="20"/>
 <wire x1="-11.43" y1="40.64" x2="109.22" y2="40.64" width="0" layer="20"/>
 <wire x1="-11.43" y1="60.96" x2="109.22" y2="60.96" width="0" layer="20"/>
-<hole x="2.54" y="22.86" drill="3.175"/>
-<hole x="2.54" y="38.1" drill="3.175"/>
-<hole x="30.48" y="38.1" drill="3.175"/>
-<hole x="30.48" y="22.86" drill="3.175"/>
+<hole x="2.54" y="22.86" drill="2.54"/>
+<hole x="2.54" y="38.1" drill="2.54"/>
+<hole x="30.48" y="38.1" drill="2.54"/>
+<hole x="30.48" y="22.86" drill="2.54"/>
 <rectangle x1="0.0635" y1="28.5115" x2="10.8585" y2="31.9405" layer="21"/>
 <rectangle x1="0.0635" y1="24.8285" x2="10.8585" y2="28.2575" layer="21"/>
 <rectangle x1="0.0635" y1="32.1945" x2="10.8585" y2="35.6235" layer="21"/>
 <rectangle x1="6.477" y1="20.32" x2="26.416" y2="24.13" layer="21"/>
 <rectangle x1="6.5405" y1="36.703" x2="26.4795" y2="40.513" layer="21"/>
-<hole x="2.54" y="43.18" drill="3.175"/>
-<hole x="2.54" y="58.42" drill="3.175"/>
-<hole x="30.48" y="58.42" drill="3.175"/>
-<hole x="30.48" y="43.18" drill="3.175"/>
+<hole x="2.54" y="43.18" drill="2.54"/>
+<hole x="2.54" y="58.42" drill="2.54"/>
+<hole x="30.48" y="58.42" drill="2.54"/>
+<hole x="30.48" y="43.18" drill="2.54"/>
 <rectangle x1="0.0635" y1="48.8315" x2="10.8585" y2="52.2605" layer="21"/>
 <rectangle x1="0.0635" y1="45.1485" x2="10.8585" y2="48.5775" layer="21"/>
 <rectangle x1="0.0635" y1="52.5145" x2="10.8585" y2="55.9435" layer="21"/>
 <rectangle x1="6.477" y1="40.64" x2="26.416" y2="44.45" layer="21"/>
 <rectangle x1="6.5405" y1="57.023" x2="26.4795" y2="60.833" layer="21"/>
-<hole x="2.54" y="63.5" drill="3.175"/>
-<hole x="2.54" y="78.74" drill="3.175"/>
-<hole x="30.48" y="78.74" drill="3.175"/>
-<hole x="30.48" y="63.5" drill="3.175"/>
+<hole x="2.54" y="63.5" drill="2.54"/>
+<hole x="2.54" y="78.74" drill="2.54"/>
+<hole x="30.48" y="78.74" drill="2.54"/>
+<hole x="30.48" y="63.5" drill="2.54"/>
 <rectangle x1="0.0635" y1="69.1515" x2="10.8585" y2="72.5805" layer="21"/>
 <rectangle x1="0.0635" y1="65.4685" x2="10.8585" y2="68.8975" layer="21"/>
 <rectangle x1="0.0635" y1="72.8345" x2="10.8585" y2="76.2635" layer="21"/>
 <rectangle x1="6.477" y1="60.96" x2="26.416" y2="64.77" layer="21"/>
 <rectangle x1="6.5405" y1="77.343" x2="26.4795" y2="81.153" layer="21"/>
-<hole x="35.56" y="2.54" drill="3.175"/>
-<hole x="35.56" y="17.78" drill="3.175"/>
-<hole x="63.5" y="17.78" drill="3.175"/>
-<hole x="63.5" y="2.54" drill="3.175"/>
+<hole x="35.56" y="2.54" drill="2.54"/>
+<hole x="35.56" y="17.78" drill="2.54"/>
+<hole x="63.5" y="17.78" drill="2.54"/>
+<hole x="63.5" y="2.54" drill="2.54"/>
 <rectangle x1="33.0835" y1="8.1915" x2="43.8785" y2="11.6205" layer="21"/>
 <rectangle x1="33.0835" y1="4.5085" x2="43.8785" y2="7.9375" layer="21"/>
 <rectangle x1="33.0835" y1="11.8745" x2="43.8785" y2="15.3035" layer="21"/>
 <rectangle x1="39.497" y1="0" x2="59.436" y2="3.81" layer="21"/>
 <rectangle x1="39.5605" y1="16.383" x2="59.4995" y2="20.193" layer="21"/>
-<hole x="35.56" y="22.86" drill="3.175"/>
-<hole x="35.56" y="38.1" drill="3.175"/>
-<hole x="63.5" y="38.1" drill="3.175"/>
-<hole x="63.5" y="22.86" drill="3.175"/>
+<hole x="35.56" y="22.86" drill="2.54"/>
+<hole x="35.56" y="38.1" drill="2.54"/>
+<hole x="63.5" y="38.1" drill="2.54"/>
+<hole x="63.5" y="22.86" drill="2.54"/>
 <rectangle x1="33.0835" y1="28.5115" x2="43.8785" y2="31.9405" layer="21"/>
 <rectangle x1="33.0835" y1="24.8285" x2="43.8785" y2="28.2575" layer="21"/>
 <rectangle x1="33.0835" y1="32.1945" x2="43.8785" y2="35.6235" layer="21"/>
 <rectangle x1="39.497" y1="20.32" x2="59.436" y2="24.13" layer="21"/>
 <rectangle x1="39.5605" y1="36.703" x2="59.4995" y2="40.513" layer="21"/>
-<hole x="35.56" y="43.18" drill="3.175"/>
-<hole x="35.56" y="58.42" drill="3.175"/>
-<hole x="63.5" y="58.42" drill="3.175"/>
-<hole x="63.5" y="43.18" drill="3.175"/>
+<hole x="35.56" y="43.18" drill="2.54"/>
+<hole x="35.56" y="58.42" drill="2.54"/>
+<hole x="63.5" y="58.42" drill="2.54"/>
+<hole x="63.5" y="43.18" drill="2.54"/>
 <rectangle x1="33.0835" y1="48.8315" x2="43.8785" y2="52.2605" layer="21"/>
 <rectangle x1="33.0835" y1="45.1485" x2="43.8785" y2="48.5775" layer="21"/>
 <rectangle x1="33.0835" y1="52.5145" x2="43.8785" y2="55.9435" layer="21"/>
 <rectangle x1="39.497" y1="40.64" x2="59.436" y2="44.45" layer="21"/>
 <rectangle x1="39.5605" y1="57.023" x2="59.4995" y2="60.833" layer="21"/>
-<hole x="35.56" y="63.5" drill="3.175"/>
-<hole x="35.56" y="78.74" drill="3.175"/>
-<hole x="63.5" y="78.74" drill="3.175"/>
-<hole x="63.5" y="63.5" drill="3.175"/>
+<hole x="35.56" y="63.5" drill="2.54"/>
+<hole x="35.56" y="78.74" drill="2.54"/>
+<hole x="63.5" y="78.74" drill="2.54"/>
+<hole x="63.5" y="63.5" drill="2.54"/>
 <rectangle x1="33.0835" y1="69.1515" x2="43.8785" y2="72.5805" layer="21"/>
 <rectangle x1="33.0835" y1="65.4685" x2="43.8785" y2="68.8975" layer="21"/>
 <rectangle x1="33.0835" y1="72.8345" x2="43.8785" y2="76.2635" layer="21"/>
 <rectangle x1="39.497" y1="60.96" x2="59.436" y2="64.77" layer="21"/>
 <rectangle x1="39.5605" y1="77.343" x2="59.4995" y2="81.153" layer="21"/>
-<hole x="68.58" y="2.54" drill="3.175"/>
-<hole x="68.58" y="17.78" drill="3.175"/>
-<hole x="96.52" y="17.78" drill="3.175"/>
-<hole x="96.52" y="2.54" drill="3.175"/>
+<hole x="68.58" y="2.54" drill="2.54"/>
+<hole x="68.58" y="17.78" drill="2.54"/>
+<hole x="96.52" y="17.78" drill="2.54"/>
+<hole x="96.52" y="2.54" drill="2.54"/>
 <rectangle x1="66.1035" y1="8.1915" x2="76.8985" y2="11.6205" layer="21"/>
 <rectangle x1="66.1035" y1="4.5085" x2="76.8985" y2="7.9375" layer="21"/>
 <rectangle x1="66.1035" y1="11.8745" x2="76.8985" y2="15.3035" layer="21"/>
 <rectangle x1="72.517" y1="0" x2="92.456" y2="3.81" layer="21"/>
 <rectangle x1="72.5805" y1="16.383" x2="92.5195" y2="20.193" layer="21"/>
-<hole x="68.58" y="22.86" drill="3.175"/>
-<hole x="68.58" y="38.1" drill="3.175"/>
-<hole x="96.52" y="38.1" drill="3.175"/>
-<hole x="96.52" y="22.86" drill="3.175"/>
+<hole x="68.58" y="22.86" drill="2.54"/>
+<hole x="68.58" y="38.1" drill="2.54"/>
+<hole x="96.52" y="38.1" drill="2.54"/>
+<hole x="96.52" y="22.86" drill="2.54"/>
 <rectangle x1="66.1035" y1="28.5115" x2="76.8985" y2="31.9405" layer="21"/>
 <rectangle x1="66.1035" y1="24.8285" x2="76.8985" y2="28.2575" layer="21"/>
 <rectangle x1="66.1035" y1="32.1945" x2="76.8985" y2="35.6235" layer="21"/>
 <rectangle x1="72.517" y1="20.32" x2="92.456" y2="24.13" layer="21"/>
 <rectangle x1="72.5805" y1="36.703" x2="92.5195" y2="40.513" layer="21"/>
-<hole x="68.58" y="43.18" drill="3.175"/>
-<hole x="68.58" y="58.42" drill="3.175"/>
-<hole x="96.52" y="58.42" drill="3.175"/>
-<hole x="96.52" y="43.18" drill="3.175"/>
+<hole x="68.58" y="43.18" drill="2.54"/>
+<hole x="68.58" y="58.42" drill="2.54"/>
+<hole x="96.52" y="58.42" drill="2.54"/>
+<hole x="96.52" y="43.18" drill="2.54"/>
 <rectangle x1="66.1035" y1="48.8315" x2="76.8985" y2="52.2605" layer="21"/>
 <rectangle x1="66.1035" y1="45.1485" x2="76.8985" y2="48.5775" layer="21"/>
 <rectangle x1="66.1035" y1="52.5145" x2="76.8985" y2="55.9435" layer="21"/>
 <rectangle x1="72.517" y1="40.64" x2="92.456" y2="44.45" layer="21"/>
 <rectangle x1="72.5805" y1="57.023" x2="92.5195" y2="60.833" layer="21"/>
-<hole x="68.58" y="63.5" drill="3.175"/>
-<hole x="68.58" y="78.74" drill="3.175"/>
-<hole x="96.52" y="78.74" drill="3.175"/>
-<hole x="96.52" y="63.5" drill="3.175"/>
+<hole x="68.58" y="63.5" drill="2.54"/>
+<hole x="68.58" y="78.74" drill="2.54"/>
+<hole x="96.52" y="78.74" drill="2.54"/>
+<hole x="96.52" y="63.5" drill="2.54"/>
 <rectangle x1="66.1035" y1="69.1515" x2="76.8985" y2="72.5805" layer="21"/>
 <rectangle x1="66.1035" y1="65.4685" x2="76.8985" y2="68.8975" layer="21"/>
 <rectangle x1="66.1035" y1="72.8345" x2="76.8985" y2="76.2635" layer="21"/>
